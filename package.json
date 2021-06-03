@@ -23,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "installserv": "npm install -g serve",
+    "upserv": "serve -s build -l 9191"
   },
   "eslintConfig": {
     "extends": [
