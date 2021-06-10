@@ -54,7 +54,7 @@
 }
 
 .items {
-    display: inline flex;
+    /* display: inline flex; */
     width: 100%;
     border: 1px solid rgb(138, 135, 135);
     /* flex-direction: start; */
