@@ -9,6 +9,7 @@ import friends from './data/friends.json';
 import transactions from './data/transactions.json';
 
 import Btn from './header/btn';
+import './header/btn.module.css';
 import Container from './Container/Container';
 
 const App = () => {
