@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './StatisticsItems.module.css';
+import style from './Statistics.module.css';
 
 const StatisticsItems = ({ items }) => {
   const { label, percentage } = items;
@@ -13,7 +13,7 @@ const StatisticsItems = ({ items }) => {
         )},${Math.round(Math.random() * 255)})`,
       }}
     >
-            <span className={style.label}>{label}</span>      
+      <span className={style.label}>{label}</span>      
       <span className={style.percentage}>{percentage}%</span>    
     </li>
   );

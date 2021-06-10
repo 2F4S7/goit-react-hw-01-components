@@ -1,0 +1,29 @@
+.th {
+    padding: 12px 5px ;
+    background-color: hsl(0, 11%, 74%);
+    border: 1px solid black;
+    font-size: 25px;
+}
+.td {
+    padding: 7px;
+     border: 1px solid black;
+}
+.td:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 93%);
+
+}
+.th:hover {
+    cursor: pointer;
+    background-color: hsl(0, 13%, 72%);
+}
+.TransactionHistory {
+    width: 1100px;
+    min-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 100%);
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: 3px 3px 7px hsla(0, 0%, 0%, 0.8);
+}
